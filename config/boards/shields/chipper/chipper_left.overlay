@@ -4,7 +4,7 @@
 	col-gpios
 		= <&gpio0 10 GPIO_ACTIVE_HIGH>   //Col0
 		, <&gpio1 15 GPIO_ACTIVE_HIGH>   //Col1
-		, <&gpio1 14 GPIO_ACTIVE_HIGH>   //Col2
+		, <&gpio0 29 GPIO_ACTIVE_HIGH>   //Col2 (was gpio1.14, matches harsha PCB)
 		, <&gpio1 13 GPIO_ACTIVE_HIGH>   //Col3
 		, <&gpio1 11 GPIO_ACTIVE_HIGH>   //Col4 (swapped)
 		, <&gpio1 12 GPIO_ACTIVE_HIGH>   //Col5 (swapped)
